@@ -1,4 +1,16 @@
-import { Button, ButtonGroup, Card, CardBody, CardFooter, Divider, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import {
+  Button,
+  ButtonGroup,
+  Card,
+  CardBody,
+  CardFooter,
+  Divider,
+  Heading,
+  Image,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
+import "./CardForWeather.css";
 
 function CardForWeather() {
   return (
@@ -16,7 +28,7 @@ function CardForWeather() {
             spaces, earthy toned spaces and for people who love a chic design
             with a sprinkle of vintage design.
           </Text>
-          <Text color="blue.600" fontSize="2xl">
+          <Text color="blue.600" fontSize="2xl" className="text-for-price">
             $450
           </Text>
         </Stack>
